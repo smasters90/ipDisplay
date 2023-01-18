@@ -1,0 +1,56 @@
+body {
+  background: url("../img/fondo.jpg") no-repeat top;
+  background-size: cover;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.enlace {
+  font-family: "Varela Round", sans-serif;
+  width: 125px;
+  height: 5px;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(187, 190, 187);
+  transition: all 0.7s;
+}
+.enlace:hover {
+  transform: scale(1.1, 1.1);
+  color: rgb(255, 255, 255);
+}
+
+.contenedorPrincipal {
+  padding-top: 100px;
+}
+.contenedorPrincipal button {
+  margin: 7px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  width: 12%;
+  color: rgb(106, 190, 127);
+  border: 1px solid rgb(223, 129, 42);
+  font-weight: 900;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+.contenedorPrincipal button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.contenedor p {
+  font-family: "Varela Round", sans-serif;
+  color: rgb(187, 190, 187);
+}
+.contenedor input {
+  margin-right: 5px;
+  height: 10%;
+  width: 5%;
+}
+.contenedor select {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
